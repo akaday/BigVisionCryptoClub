@@ -1,3 +1,8 @@
+import os
+import sys
+
+sys.path.append(os.path.dirname(os.path.abspath(__file__)) + '/..')
+
 from resto_app.payments.crypto_payments import process_payment
 from resto_app.reservations.booking import reserve_table
 
